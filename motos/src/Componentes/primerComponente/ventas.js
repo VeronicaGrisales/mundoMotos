@@ -359,6 +359,129 @@ function Ventas(){
                         </div>
                     </div>
                     </div>
+                    <div className='contenedor-galeria'>
+                    <img src="./la_pagina_web/accesorio 2.jpg" alt="" class="img"/>
+                    <div className='informacion'>
+                        <h2 className='subtituloo'>
+                            Kit para motociclista
+                        </h2>
+                        <p className='inf'>
+                            Color: personalizado
+                            Descripción: Chaqueta de piel, <br></br>
+                            guantes icon persuit liso cuero, <br></br>
+                            gafas oscuras con proteccion UV, <br></br>
+                            casco ICH abatible certificado doble visor. <br></br>
+                            Valor: $615.800
+                        </p>
+                        <div className='carrito'>
+                             <i></i>
+                        </div>
+                    </div>
+                    </div>
+                    <div className='contenedor-galeria'>
+                    <img src="./la_pagina_web/accesorio 4.jpg" alt="" class="img"/>
+                    <div className='informacion'>
+                        <h2 className='subtituloo'>
+                            Kit para motociclista
+                        </h2>
+                        <p className='inf'>
+                            Color: personalizado <br></br>
+                            Descripción: Chaqueya de piel vintage cool, <br></br>
+                            guantes tacticos antideslizantes, <br></br>
+                            gafas oscuras, <br></br>
+                            casco KNT abatible donle visor. <br></br>
+                            Valor: $458.200
+                        </p>
+                        <div className='carrito'>
+                             <i></i>
+                        </div>
+                    </div>
+                    </div>
+                    <div className='contenedor-galeria'>
+                    <img src="./la_pagina_web/accesorio 3.jpg" alt="" class="img"/>
+                    <div className='informacion'>
+                        <h2 className='subtituloo'>
+                            Kit para motociclista economico
+                        </h2>
+                        <p className='inf'>
+                            Color: personalizado <br></br>
+                            Descripción: Guantes 100% impermeables y termicos, <br></br>
+                            gafas oscuras, <br></br>
+                            casco KNT abatible doble visor. <br></br>
+                            Valor: 458.200
+                        </p>
+                        <div className='carrito'>
+                             <i></i>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+            <section className='gallery' id='repuestos'>
+                <div className='contenedor'>
+                    <h2 className='subtitulo'>
+                        Repuestos y herramientas
+                    </h2>
+                    <p className='copy'>
+                    En esta sección encontrarás, artículos indispensables para el mantenimiento y buen funcionamiento de tu vehículo.
+                    haz tu pedido y lo llevaremos hasta tu ubicación.
+                    </p>
+                    <div className='contenedor-galeria'>
+                    <img src="./la_pagina_web/herramienta.jpg" alt="" class="img"/>
+                    <div className='informacion'>
+                        <h2 className='subtituloo'>
+                            Kit de herramientas STANLEY X 60 pcs
+                        </h2>
+                        <p className='inf'>
+                            Valor: $480.000
+                        </p>
+                        <div className='carrito'>
+                             <i></i>
+                        </div>
+                    </div>
+                    </div>
+                    <div className='contenedor-galeria'>
+                    <img src="./la_pagina_web/repuestos.jpg" alt="" class="img"/>
+                    <div className='informacion'>
+                        <h2 className='subtituloo'>
+                            Kit de caja de piñones genericos
+                        </h2>
+                        <p className='inf'>
+                            Valor: $750.000
+                        </p>
+                        <div className='carrito'>
+                             <i></i>
+                        </div>
+                    </div>
+                    </div>
+                    <div className='contenedor-galeria'>
+                    <img src=".//la_pagina_web/llaves herramienta.jpg" alt="" class="img"/>
+                    <div className='informacion'>
+                        <h2 className='subtituloo'>
+                            Llaves mixtas
+                        </h2>
+                        <p className='inf'>
+                            Valor: $15.000 c/u
+                        </p>
+                        <div className='carrito'>
+                             <i></i>
+                        </div>
+                    </div>
+                    </div>
+                    <div className='contenedor-galeria'>
+                    <img src="./la_pagina_web/llantas.jpg" alt="" class="img" id="llantas"/>
+                    <div className='informacion'>
+                        <h2 className='subtituloo'>
+                            Llantas spot, lagarto, pistera
+                        </h2>
+                        <p className='inf'>
+                            Valor: $189.000
+                        </p>
+                        <div className='carrito'>
+                             <i></i>
+                        </div>
+                    </div>
+                    </div>
                 </div>
             </section>
         </main>
