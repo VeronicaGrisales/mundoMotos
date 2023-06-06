@@ -7,6 +7,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 function Registrarse () {
     
     return (
+        <body>
     <section className='form-register'>
 
         <h4>Formulario de registro</h4>
@@ -28,6 +29,7 @@ function Registrarse () {
         </a>
         </p>
     </section>
+    </body>
     );
 };
 

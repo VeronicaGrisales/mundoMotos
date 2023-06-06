@@ -7,5 +7,7 @@ function Ventas(){
     return <h1>Aca podras hacer varias compras de nuestros productos</h1>;
 }
 
-export default Ventas;
+root.render (Ventas)
+
+/*export default Ventas;*/
 
