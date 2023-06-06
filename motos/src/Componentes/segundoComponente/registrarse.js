@@ -3,8 +3,8 @@ import ReactDOM from'react-dom/client';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-function Ventas(){
-    return <h1>Aca podras hacer varias compras de nuestros productos</h1>;
+function Registrarse(){
+    return <h1>Mi primer componente</h1>;
 }
 
-export default Ventas;
+export default Registrarse;
