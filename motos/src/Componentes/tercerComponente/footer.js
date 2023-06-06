@@ -15,13 +15,13 @@ function Footer(){
             </div>
             <div className='social-media'>
                 <a href='#facebook' className='social-media-icon'>
-                    <i></i>
+                    <i><i class='bx bxl-facebook'></i></i>
                 </a>
                 <a href='#twiter' className='social-media-icon'>
-                    <i></i>
+                    <i><i class='bx bxl-twitter'></i></i>
                 </a>
                 <a href='#instagram' className='social-media-icon'>
-                    <i></i>
+                    <i><i class='bx bxl-instagram'></i></i>
                 </a>
             </div>
         </div>

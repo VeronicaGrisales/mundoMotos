@@ -47,7 +47,7 @@ function Ventas(){
                             Valor: $65.790.000
                         </p>
                         <div className='carrito'>
-                             <i></i>
+                            <i class='bx bxs-cart'></i>
                         </div>
                  </div>
                 </div>
@@ -65,7 +65,7 @@ function Ventas(){
                         Valor: $9.750.000
                     </p>
                     <div className='carrito'>
-                             <i></i>
+                            <i class='bx bxs-cart'></i>
                     </div>
                 </div>
                 </div>
@@ -82,7 +82,7 @@ function Ventas(){
                         Valor: $95.980.000
                     </p>
                     <div className='carrito'>
-                             <i></i>
+                            <i class='bx bxs-cart'></i>
                     </div>
                 </div>
                 </div>
@@ -100,7 +100,7 @@ function Ventas(){
                         Valor: $64.990.000
                     </p>
                     <div className='carrito'>
-                             <i></i>
+                             <i class='bx bxs-cart'></i>
                     </div>
                 </div>
                 </div>
@@ -118,7 +118,7 @@ function Ventas(){
                         Valor: $15.450.000
                     </p>
                     <div className='carrito'>
-                             <i></i>
+                             <i class='bx bxs-cart'></i>
                     </div>
                 </div>
                 </div>
@@ -135,7 +135,7 @@ function Ventas(){
                         Valor: $97.807.223
                     </p>
                     <div className='carrito'>
-                             <i></i>
+                        <i class='bx bxs-cart'></i>
                     </div>
                 </div>
                 </div>
@@ -152,7 +152,7 @@ function Ventas(){
                         Valor: $15.450.000
                     </p>
                     <div className='carrito'>
-                             <i></i>
+                        <i class='bx bxs-cart'></i>
                     </div>
                 </div>
                 </div>
@@ -170,7 +170,7 @@ function Ventas(){
                         Valor: $25.500.000
                     </p>
                     <div className='carrito'>
-                             <i></i>
+                        <i class='bx bxs-cart'></i>
                     </div>
                 </div>
                 </div>
@@ -188,7 +188,7 @@ function Ventas(){
                         Valor: $25.500.000
                     </p>
                     <div className='carrito'>
-                             <i></i>
+                        <i class='bx bxs-cart'></i>
                     </div>
                 </div>
                 </div>
@@ -206,7 +206,7 @@ function Ventas(){
                         Valor: $56.900.000 
                     </p>
                     <div className='carrito'>
-                             <i></i>
+                         <i class='bx bxs-cart'></i>
                     </div>
                 </div>
                 </div>
@@ -224,7 +224,7 @@ function Ventas(){
                         Valor: $63.599.000
                     </p>
                     <div className='carrito'>
-                             <i></i>
+                            <i class='bx bxs-cart'></i>
                     </div>
                 </div>
                 </div>
@@ -242,7 +242,7 @@ function Ventas(){
                         Valor: $5.499.000
                     </p>
                     <div className='carrito'>
-                             <i></i>
+                            <i class='bx bxs-cart'></i>
                     </div>
                 </div>
                 </div>
@@ -260,7 +260,7 @@ function Ventas(){
                         Valor: $5.499.000
                     </p>
                     <div className='carrito'>
-                             <i></i>
+                            <i class='bx bxs-cart'></i>
                     </div>
                 </div>
                 </div>
@@ -278,7 +278,7 @@ function Ventas(){
                         Valor: $20.000.000
                     </p>
                     <div className='carrito'>
-                             <i></i>
+                             <i class='bx bxs-cart'></i>
                     </div>
                 </div>
                 </div>
@@ -296,7 +296,7 @@ function Ventas(){
                         Valor: $5.499.000 en adelante...
                     </p>
                     <div className='carrito'>
-                             <i></i>
+                            <i class='bx bxs-cart'></i>
                     </div>
                 </div>
                 </div>
@@ -323,7 +323,7 @@ function Ventas(){
                             Valor: $588.000
                         </p>
                         <div className='carrito'>
-                             <i></i>
+                                 <i class='bx bxs-cart'></i>
                         </div>
                     </div>
                     </div>
@@ -339,7 +339,7 @@ function Ventas(){
                             Valor: $208.710
                         </p>
                         <div className='carrito'>
-                             <i></i>
+                                 <i class='bx bxs-cart'></i>
                         </div>
                     </div>
                     </div>
@@ -355,7 +355,7 @@ function Ventas(){
                             Valor: $261.862
                         </p>
                         <div className='carrito'>
-                             <i></i>
+                                <i class='bx bxs-cart'></i>
                         </div>
                     </div>
                     </div>
@@ -374,7 +374,7 @@ function Ventas(){
                             Valor: $615.800
                         </p>
                         <div className='carrito'>
-                             <i></i>
+                                <i class='bx bxs-cart'></i>
                         </div>
                     </div>
                     </div>
@@ -393,7 +393,7 @@ function Ventas(){
                             Valor: $458.200
                         </p>
                         <div className='carrito'>
-                             <i></i>
+                                <i class='bx bxs-cart'></i>
                         </div>
                     </div>
                     </div>
@@ -411,7 +411,7 @@ function Ventas(){
                             Valor: 458.200
                         </p>
                         <div className='carrito'>
-                             <i></i>
+                                <i class='bx bxs-cart'></i>
                         </div>
                     </div>
                     </div>
@@ -436,7 +436,7 @@ function Ventas(){
                             Valor: $480.000
                         </p>
                         <div className='carrito'>
-                             <i></i>
+                                <i class='bx bxs-cart'></i>
                         </div>
                     </div>
                     </div>
@@ -450,7 +450,7 @@ function Ventas(){
                             Valor: $750.000
                         </p>
                         <div className='carrito'>
-                             <i></i>
+                                <i class='bx bxs-cart'></i>
                         </div>
                     </div>
                     </div>
@@ -464,7 +464,7 @@ function Ventas(){
                             Valor: $15.000 c/u
                         </p>
                         <div className='carrito'>
-                             <i></i>
+                                <i class='bx bxs-cart'></i>
                         </div>
                     </div>
                     </div>
@@ -478,7 +478,7 @@ function Ventas(){
                             Valor: $189.000
                         </p>
                         <div className='carrito'>
-                             <i></i>
+                                <i class='bx bxs-cart'></i>
                         </div>
                     </div>
                     </div>
