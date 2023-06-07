@@ -1,5 +1,37 @@
 import React from 'react';
 import ReactDOM from'react-dom/client';
+import accesorio1 from '../imagenes/accesorio-1.jpg';
+import accesorio2 from '../imagenes/accesorio-2.jpg';
+import accesorio3 from '../imagenes/accesorio-3.jpg';
+import accesorio4 from '../imagenes/accesorio-4.jpg';
+import accesorio5 from '../imagenes/accesorio-5.jpg';
+import accesorio6 from '../imagenes/accesorio-6.jpg';
+import chaqueta from '../imagenes/accesorio-chaqueta.jpg';
+import cuatrimoto1 from '../imagenes/cuatri-moto-1.jpg';
+import cuatrimotofamilia from '../imagenes/cuatri-moto-familia.jpg';
+import cuatrimotoniño from '../imagenes/cuatrimoto-niño.jpg';
+import fondo from '../imagenes/fondo.jpg';
+import herramienta from '../imagenes/herramienta.jpg';
+import llantas from '../imagenes/llantas.jpg';
+import llaves from '../imagenes/llaves-herramienta.jpg';
+import logo from '../imagenes/logo.png';
+import repuestos from '../imagenes/repuestos.jpg';
+import boxer from '../imagenes/moto- boxer-125-2.jpg';
+import moto from '../imagenes/moto-superior-a-125-1.jpg';
+import motocicletaNiño from '../imagenes/motocicletas-para-niños.jpg';
+import moto2 from '../imagenes/moto-superior-a-125-2.jpg';
+import moto3 from '../imagenes/moto-superior-a-125- 4.jpg';
+import moto4 from '../imagenes/moto-superior-125-6.jpg';
+import moto5 from '../imagenes/moto-superior-125-5.jpg';
+import moto6 from '../imagenes/moto-superio-a-125-3.jpg';
+import moto7 from '../imagenes/moto-scooter-1.jpg';
+import moto8 from '../imagenes/moto-menor-a-125-1.jpg';
+import moto9 from '../imagenes/moto-enduro-4.jpg';
+import moto10 from '../imagenes/moto-enduro-3.jpg';
+import moto11 from '../imagenes/moto-enduro-2.jpg';
+import moto12 from '../imagenes/moto-enduro-1.jpg';
+import principal from '../imagenes/po-fondo.jpg';
+import boxer2 from '../imagenes/moto-boxer-125-1.jpg'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -34,7 +66,7 @@ function Ventas(){
                     <b>¡No te lo pierdas!</b>
                     </p>                   
                     <div className='contenedor-galeria'>
-                    <img src="./la_pagina_web/cuatri moto 1.jpg" alt="" class="img" />
+                    <img src={cuatrimoto1} alt="" class="img" />
                     <div className='informacion'>
                         <h2 className='subtituloo'>
                             Cuatrimoto TRX 520 Rubicon Modelo 2023
@@ -52,7 +84,7 @@ function Ventas(){
                  </div>
                 </div>
                 <div className='contenedor-galeria'>
-                <img src="./la_pagina_web/motocicletas para niños.jpg" alt="" class="img"></img>
+                <img src={motocicletaNiño} alt="" class="img"></img>
                 <div className='informacion'>
                     <h2 className='subtituloo'>
                         Moto cross CRF 50F Modelo 2022
@@ -70,7 +102,7 @@ function Ventas(){
                 </div>
                 </div>
                 <div className='contenedor-galeria'>
-                <img src="./la_pagina_web/moto superior a 125 2.jpg" alt="" class="img"/>
+                <img src={moto2} alt="" class="img"/>
                 <div className='informacion'>
                     <h2 className='subtituloo'>
                         Ninja H2 2023
@@ -87,7 +119,7 @@ function Ventas(){
                 </div>
                 </div>
                 <div className='contenedor-galeria'>
-                <img src="./la_pagina_web/moto superior a 125  4.jpg" alt="" class="img"/>
+                <img src={moto3} alt="" class="img"/>
                 <div className='informacion'>
                     <h2 className='subtituloo'>
                         YZF-R6 2023
@@ -105,7 +137,7 @@ function Ventas(){
                 </div>
                 </div>
                 <div className='contenedor-galeria'>
-                <img src="./la_pagina_web/moto superior 125 6.jpg" alt="" class="img"/>
+                <img src={moto4} alt="" class="img"/>
                 <div className='informacion'>
                     <h2 className='subtituloo'>
                         Harley-Davidson capitan america Chopper 1969
@@ -123,7 +155,7 @@ function Ventas(){
                 </div>
                 </div>
                 <div className='contenedor-galeria'>
-                <img src="./la_pagina_web/moto superior 125 5.jpg" alt="" class="img"/>
+                <img src={moto5} alt="" class="img"/>
                 <div className='informacion'>
                     <h2 className='subtituloo'>
                         Chopper Harley-Davidsson Panhead
@@ -140,7 +172,7 @@ function Ventas(){
                 </div>
                 </div>
                 <div className='contenedor-galeria'>
-                <img src="./la_pagina_web/moto superio a 125 3.jpg" alt="" class="img"/>
+                <img src={moto6} alt="" class="img"/>
                 <div className='informacion'>
                     <h2 className='subtituloo'>
                         R15 2024
@@ -157,7 +189,7 @@ function Ventas(){
                 </div>
                 </div>
                 <div className='contenedor-galeria'>
-                <img src="./la_pagina_web/moto enduro 3.jpg" alt="" class="img"/>
+                <img src={moto10} alt="" class="img"/>
                 <div className='informacion'>
                     <h2 className='subtituloo'>
                         Motos enduro XTZ-250 2012
@@ -175,7 +207,7 @@ function Ventas(){
                 </div>
                 </div>
                 <div className='contenedor-galeria'>
-                <img src="./la_pagina_web/moto enduro 2.jpg" alt="" class="img"/>
+                <img src={moto11} alt="" class="img"/>
                 <div className='informacion'>
                     <h2 className='subtituloo'>
                         Suzuki DR-200SE
@@ -193,7 +225,7 @@ function Ventas(){
                 </div>
                 </div>
                 <div className='contenedor-galeria'>
-                <img src="./la_pagina_web/moto enduro 1.jpg" alt="" class="img"/>
+                <img src={moto12} alt="" class="img"/>
                 <div className='informacion'>
                     <h2 className='subtituloo'>
                         KTM 350 SX-F 2023
@@ -211,7 +243,7 @@ function Ventas(){
                 </div>
                 </div>
                 <div className='contenedor-galeria'>
-                <img src="./la_pagina_web/moto endur 4.jpg" alt="" class="img"/>
+                <img src={moto9} alt="" class="img"/>
                 <div className='informacion'>
                     <h2 className='subtituloo'>
                         Yamaha YZ125 2022
@@ -229,7 +261,7 @@ function Ventas(){
                 </div>
                 </div>
                 <div className='contenedor-galeria'>
-                <img src="./la_pagina_web/moto boxer 125 2.jpg" alt="" class="img"/>
+                <img src={boxer} alt="" width={600} class="img"/>
                 <div className='informacion'>
                     <h2 className='subtituloo'>
                         BOXER S PRO
@@ -247,7 +279,7 @@ function Ventas(){
                 </div>
                 </div>
                 <div className='contenedor-galeria'>
-                <img src="./la_pagina_web/moto boxer 125 1.jpg" alt="" class="img"/>
+                <img src={boxer2} alt="" class="img"/>
                 <div className='informacion'>
                     <h2 className='subtituloo'>
                         Boxer S
@@ -265,7 +297,7 @@ function Ventas(){
                 </div>
                 </div>
                 <div className='contenedor-galeria'>
-                <img src="./la_pagina_web/cuatrimoto niñ@ 1.jpg" alt="" class="img"/>
+                <img src={cuatrimotoniño} alt="" class="img"/>
                 <div className='informacion'>
                     <h2 className='subtituloo'>
                         Cuatrimoto YFM90R
@@ -283,7 +315,7 @@ function Ventas(){
                 </div>
                 </div>
                 <div className='contenedor-galeria'>
-                <img src="./la_pagina_web/cuatri moto familia.jpg" alt="" class="img"/>
+                <img src={cuatrimotofamilia} alt="" class="img"/>
                 <div className='informacion'>
                     <h2 className='subtituloo'>
                         Cuatrimoto todos los tamaños
@@ -312,7 +344,7 @@ function Ventas(){
                         garantizados y de excelente calidad.
                     </p>
                     <div className='contenedor-galeria'>
-                    <img src="./la_pagina_web/accesorio 1.jpg" alt="" class="img"/>
+                    <img src={accesorio1} alt="accesorio 1" class="img"/>
                     <div className='informacion'>
                         <h2 className='subtituloo'>
                             Kit de protección para motocicletas
@@ -328,7 +360,7 @@ function Ventas(){
                     </div>
                     </div>
                     <div className='contenedor-galeria'>
-                    <img src="./la_pagina_web/accesorio chaqueta.jpg" alt="" class="img"/>
+                    <img src={chaqueta} alt="" class="img"/>
                     <div className='informacion'>
                         <h2 className='subtituloo'>
                             Chamarra de cuero
@@ -344,7 +376,7 @@ function Ventas(){
                     </div>
                     </div>
                     <div className='contenedor-galeria'>
-                    <img src="./la_pagina_web/accesorio 5.jpg" alt="" class="img"/>
+                    <img src={accesorio5} alt="" width={500} class="img"/>
                     <div className='informacion'>
                         <h2 className='subtituloo'>
                             Casco plano certificado
@@ -360,7 +392,7 @@ function Ventas(){
                     </div>
                     </div>
                     <div className='contenedor-galeria'>
-                    <img src="./la_pagina_web/accesorio 2.jpg" alt="" class="img"/>
+                    <img src={accesorio2} alt="" class="img"/>
                     <div className='informacion'>
                         <h2 className='subtituloo'>
                             Kit para motociclista
@@ -379,7 +411,7 @@ function Ventas(){
                     </div>
                     </div>
                     <div className='contenedor-galeria'>
-                    <img src="./la_pagina_web/accesorio 4.jpg" alt="" class="img"/>
+                    <img src={accesorio4} alt="" class="img"/>
                     <div className='informacion'>
                         <h2 className='subtituloo'>
                             Kit para motociclista
@@ -398,7 +430,7 @@ function Ventas(){
                     </div>
                     </div>
                     <div className='contenedor-galeria'>
-                    <img src="./la_pagina_web/accesorio 3.jpg" alt="" class="img"/>
+                    <img src={accesorio3} alt="" width={500} class="img"/>
                     <div className='informacion'>
                         <h2 className='subtituloo'>
                             Kit para motociclista economico
@@ -427,7 +459,7 @@ function Ventas(){
                     haz tu pedido y lo llevaremos hasta tu ubicación.
                     </p>
                     <div className='contenedor-galeria'>
-                    <img src="./la_pagina_web/herramienta.jpg" alt="" class="img"/>
+                    <img src={herramienta} alt="" width={500} class="img"/>
                     <div className='informacion'>
                         <h2 className='subtituloo'>
                             Kit de herramientas STANLEY X 60 pcs
@@ -441,7 +473,7 @@ function Ventas(){
                     </div>
                     </div>
                     <div className='contenedor-galeria'>
-                    <img src="./la_pagina_web/repuestos.jpg" alt="" class="img"/>
+                    <img src={repuestos} alt="" width={550} class="img"/>
                     <div className='informacion'>
                         <h2 className='subtituloo'>
                             Kit de caja de piñones genericos
@@ -455,7 +487,7 @@ function Ventas(){
                     </div>
                     </div>
                     <div className='contenedor-galeria'>
-                    <img src=".//la_pagina_web/llaves herramienta.jpg" alt="" class="img"/>
+                    <img src={llaves} alt="" class="img"/>
                     <div className='informacion'>
                         <h2 className='subtituloo'>
                             Llaves mixtas
@@ -469,7 +501,7 @@ function Ventas(){
                     </div>
                     </div>
                     <div className='contenedor-galeria'>
-                    <img src="./la_pagina_web/llantas.jpg" alt="" class="img" id="llantas"/>
+                    <img src={llantas} alt="" width={550} class="img" id="llantas"/>
                     <div className='informacion'>
                         <h2 className='subtituloo'>
                             Llantas spot, lagarto, pistera
