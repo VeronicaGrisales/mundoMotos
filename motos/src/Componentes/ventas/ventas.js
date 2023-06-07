@@ -40,7 +40,7 @@ function Ventas(){
 
     return (
         <body>
-        <header className='header' id='inicio'>
+        <header className='principal' id='inicio'>
             <nav className='menu-navegacion'>
                 <a href='index.js'>Inicio</a>
             </nav>
@@ -528,4 +528,3 @@ function Ventas(){
 root.render (Ventas)
 
 export default Ventas;
-

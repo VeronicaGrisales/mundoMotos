@@ -1,5 +1,5 @@
-//import React from "react";
-import Logo from '../../../Componentes/la_pagina_web/logo.png';
+import React from "react";
+import logo from '../imagenes/logo.png'
 import './logoMundomotos.css';
 
 
@@ -11,7 +11,7 @@ function Log() {
       <ul>
         <li id='logo'>
           <a href='#' >
-            <img src={Logo} width={150} alt='' />
+            <img src={logo} width={150} alt='' />
           </a>
         </li>
       </ul>

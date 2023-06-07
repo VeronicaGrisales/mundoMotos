@@ -9,7 +9,7 @@
 
 .header {
     height: 100vh;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.534) 0%, #08080881 100%), url(../la_pagina_web/po\ fondo.jpg);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.534) 0%, #08080881 100%), url(../imagenes/po-fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

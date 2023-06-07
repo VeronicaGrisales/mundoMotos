@@ -1,21 +1,23 @@
 import React from 'react';
 import ReactDOM from'react-dom/client';
-import Log from './Componentes/heade/logo/logoMundomotos';
+import Log from './Componentes/logo/logoMundomotos';
 import Header from './Componentes/heade';
-import Ventas from './Componentes/primerComponente/ventas';
 import Footer from './Componentes/tercerComponente/footer';
 import Registrarse from './Componentes/segundoComponente/registrarse';
+import Ventas from './Componentes/ventas/ventas';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render (
     <>
-    <Registrarse/>
+    <Ventas/>
     </>
     );
 
-    /*<Componente/>
+    /*
     <Header/>
+    
     <Footer/>
-    <Ventas/>
-    <Log/>*/
+    <Registrarse/>
+    <Log/>
+    */
