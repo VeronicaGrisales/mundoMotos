@@ -8,7 +8,10 @@ function Registrarse () {
     
     return (
         <body>
-    <section className='form-register'>
+            <nav className='menu-navegacion'>
+                <a href='index.js'>Inicio</a>
+            </nav>
+        <section className='form-register'>
 
         <h4>Formulario de registro</h4>
 
@@ -28,7 +31,7 @@ function Registrarse () {
         ¿Ya tengo cuenta?
         </a>
         </p>
-    </section>
+        </section>
     </body>
     );
 };

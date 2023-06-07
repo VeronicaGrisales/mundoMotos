@@ -45,7 +45,7 @@ function Ventas(){
                 <a href='index.js'>Inicio</a>
             </nav>
             <div className='carrito'>
-                <i></i>
+                <i class='bx bxs-cart'></i>
             </div>
             <div className='contenedor head'>
                 <h1 className='titulo'>Que ofrecemos</h1>
@@ -528,3 +528,4 @@ function Ventas(){
 root.render (Ventas)
 
 export default Ventas;
+
