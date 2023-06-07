@@ -11,13 +11,14 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render (
     <>
     <Ventas/>
+   
     </>
     );
 
     /*
     <Header/>
+     <Footer/>
     
-    <Footer/>
     <Registrarse/>
     <Log/>
     */
