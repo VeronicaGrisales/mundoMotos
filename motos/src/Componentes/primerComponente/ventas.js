@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from'react-dom/client';
+import './ventas.css'
 import accesorio1 from '../imagenes/accesorio-1.jpg';
 import accesorio2 from '../imagenes/accesorio-2.jpg';
 import accesorio3 from '../imagenes/accesorio-3.jpg';
@@ -69,12 +70,12 @@ function Ventas(){
                     <img src={cuatrimoto1} alt="" class="img" />
                     <div className='informacion'>
                         <h2 className='subtituloo'>
-                            Cuatrimoto TRX 520 Rubicon Modelo 2023
+                            Cuatrimoto TRX 520 Rubicon <br></br> Modelo 2023
                         </h2>
                         <p className='inf'>
                             Color: personalizado <br></br>
                             Cilindraje: 518 cc <br></br>
-                            Tipo de motor 4 tiempos (OHV)  Refrigerado por liquido <br></br>
+                            Tipo de motor 4 tiempos (OHV) <br></br>  Refrigerado por liquido <br></br>
                             Potencia maxima: 28,3 HP <br></br>
                             Valor: $65.790.000
                         </p>
@@ -87,12 +88,12 @@ function Ventas(){
                 <img src={motocicletaNiño} alt="" class="img"></img>
                 <div className='informacion'>
                     <h2 className='subtituloo'>
-                        Moto cross CRF 50F Modelo 2022
+                        Moto cross CRF 50F Modelo <br></br> 2022
                     </h2>
                     <p className='inf'>
                         Color: personalizado <br></br>
                         Cilindraje: 49 cc <br></br>
-                        Tipo de motor: 4 tiempos 2 valvúlas (SOHC) Refrigerado por aire <br></br>
+                        Tipo de motor: 4 tiempos 2 <br></br> valvúlas (SOHC) Refrigerado por aire <br></br>
                         Potencia maxima: 3 HP @ 8,500 MIN-1 <br></br>
                         Valor: $9.750.000
                     </p>
@@ -110,7 +111,7 @@ function Ventas(){
                     <p className='inf'>
                         Color: personalizado <br></br>
                         Cilindraje: 998 cc <br></br>
-                        Tipo de motor: 4 tiempos sobrealimentado de cuatro cilindro <br></br>
+                        Tipo de motor: 4 tiempos <br></br> sobrealimentado de cuatro cilindro <br></br>
                         Valor: $95.980.000
                     </p>
                     <div className='carrito'>
@@ -127,7 +128,7 @@ function Ventas(){
                     <p className='inf'>
                         Color: personalizado <br></br>
                         Cilindraje: 599 cc <br></br>
-                        Tipo de motor: 4 tiempos (DOCH) Refrigerado por liquido <br></br>
+                        Tipo de motor: 4 tiempos (DOCH) <br></br> Refrigerado por liquido <br></br>
                         Potencia maxima: 116,7 HP a 14500 rpm <br></br>
                         Valor: $64.990.000
                     </p>
@@ -140,12 +141,12 @@ function Ventas(){
                 <img src={moto4} alt="" class="img"/>
                 <div className='informacion'>
                     <h2 className='subtituloo'>
-                        Harley-Davidson capitan america Chopper 1969
+                        Harley-Davidson capitan <br></br> america Chopper 1969
                     </h2>
                     <p className='inf'>
                         Color: personalizado <br></br>
                         Cilindraje: cc <br></br>
-                        Tipo de motor: 4 valvulas (SOHC) refrigerado por liquido <br></br>
+                        Tipo de motor: 4 valvulas (SOHC) <br></br> refrigerado por liquido <br></br>
                         Potencia maxima: 19,3 HP a 10000 rmp <br></br>
                         Valor: $15.450.000
                     </p>
@@ -158,12 +159,12 @@ function Ventas(){
                 <img src={moto5} alt="" class="img"/>
                 <div className='informacion'>
                     <h2 className='subtituloo'>
-                        Chopper Harley-Davidsson Panhead
+                        Chopper Harley-Davidsson <br></br> Panhead
                     </h2>
                     <p className='inf'>
                         Color: personalizado <br></br>
                         Cilindraje: 73,22 cc <br></br>
-                        Potencia maxima: 60 HP a 6000 rpm <br></br>
+                        Potencia maxima: 60 HP a 6000 <br></br> rpm <br></br>
                         Valor: $97.807.223
                     </p>
                     <div className='carrito'>
@@ -177,7 +178,7 @@ function Ventas(){
                     <h2 className='subtituloo'>
                         R15 2024
                     </h2>
-                    <p className='informacion'>
+                    <p className='inf'>
                         Color: personalizado <br></br>
                         Cilindraje: 1,923 cc <br></br>
                         Potencia maxima: 102 HP a 5020 rpm <br></br>
@@ -197,7 +198,7 @@ function Ventas(){
                     <p className='inf'>
                         Color: personalizado <br></br>
                         Cilindraje: 249 cc <br></br>
-                        Tipo de motor: 4T (SOCH) Refrigerado por aire y aceite <br></br>
+                        Tipo de motor: 4T (SOCH) Refrigerado <br></br> por aire y aceite <br></br>
                         Potencia maxima: 20,4 HP a 8000 rpm <br></br>
                         Valor: $25.500.000
                     </p>
@@ -215,7 +216,7 @@ function Ventas(){
                     <p className='inf'>
                         Color: personalizado <br></br>
                         Cilindraje: 199 cc <br></br>
-                        Tipo de motor: 4 tiempos (SOCH) refrigerado por aire y aceite <br></br>
+                        Tipo de motor: 4 tiempos (SOCH) <br></br> refrigerado por aire y aceite <br></br>
                         Potencia maxima: 20 HP a 8500 rpm <br></br>
                         Valor: $25.500.000
                     </p>
@@ -305,7 +306,7 @@ function Ventas(){
                     <p className='inf'>
                         Color: personalizado <br></br>
                         Cilindraje: 90 cc <br></br>
-                        Tipo de motor: 4 tiempo (SOCH), 2 valvulas, refrigeradopor aire <br></br>
+                        Tipo de motor: 4 tiempo (SOCH), 2 valvulas, <br></br> refrigeradopor aire <br></br>
                         Potencia maxima: 7.59 HP a 7500 rpm <br></br>
                         Valor: $20.000.000
                     </p>
@@ -351,7 +352,9 @@ function Ventas(){
                         </h2>
                         <p className='inf'>
                             Color: personalizado <br></br>
-                            Descripción; Casco habatible, guantes con protección en nudillos y botas impermeables <br></br>
+                            Descripción; Casco habatible, <br></br>
+                             guantes con protección en nudillos <br></br> 
+                             y botas impermeables <br></br>
                             Valor: $588.000
                         </p>
                         <div className='carrito'>
@@ -367,7 +370,7 @@ function Ventas(){
                         </h2>
                         <p className='inf'>
                             Color: personalizado <br></br>
-                            Descripción: Chaqueta de proteccion para motociclistas antifricción <br></br>
+                            Descripción: Chaqueta de proteccion para <br></br> motociclistas antifricción <br></br>
                             Valor: $208.710
                         </p>
                         <div className='carrito'>
@@ -462,7 +465,7 @@ function Ventas(){
                     <img src={herramienta} alt="" width={500} class="img"/>
                     <div className='informacion'>
                         <h2 className='subtituloo'>
-                            Kit de herramientas STANLEY X 60 pcs
+                            Kit de herramientas <br></br> STANLEY X 60 pcs
                         </h2>
                         <p className='inf'>
                             Valor: $480.000
@@ -476,7 +479,7 @@ function Ventas(){
                     <img src={repuestos} alt="" width={550} class="img"/>
                     <div className='informacion'>
                         <h2 className='subtituloo'>
-                            Kit de caja de piñones genericos
+                            Kit de caja de piñones <br></br> genericos
                         </h2>
                         <p className='inf'>
                             Valor: $750.000
@@ -504,7 +507,7 @@ function Ventas(){
                     <img src={llantas} alt="" width={550} class="img" id="llantas"/>
                     <div className='informacion'>
                         <h2 className='subtituloo'>
-                            Llantas spot, lagarto, pistera
+                            Llantas spot, lagarto, <br></br> pistera
                         </h2>
                         <p className='inf'>
                             Valor: $189.000

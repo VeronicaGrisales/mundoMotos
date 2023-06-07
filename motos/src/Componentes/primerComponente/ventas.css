@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+.menu-navegacion a {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: yellow;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+}
+
+header {
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.534) 0%, #08080881 100%), url(../imagenes/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.head {
+    text-align: center;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.carrito {
+    font-size: 30px;
+    left: 7%;
+    top: 7px;
+    margin-top: 0;
+    color: black;
+    cursor: pointer;
+}
+
+.bx.bx-x {
+    position: absolute;
+    color: #fff;
+    top: 20px;
+    right: 10px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.carrito :hover {
+    color: aquamarine;
+}
+
+.titulo {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+.subtitulo {
+    font-size: 60px;
+    margin-bottom:15px;
+}
+
+.subtituloo {
+    font-size: 30px;
+    margin-bottom: 7px;
+}
+
+.copy {
+    margin: 3%;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.inf {
+    font-size: 25px;
+    margin-bottom: 7px;
+}
+
+.img {
+    float: left;
+    margin-right: 10px;
+  
+}
+
+.gallery {
+    background: #f2f2f2;
+    margin-bottom: 30px;
+}
+
+.gallery {
+    background: #f2f2f2;
+    margin-bottom: 30px;
+}
+
+.contenedor-galeria {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 10%;
+}
