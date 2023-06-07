@@ -528,4 +528,3 @@ function Ventas(){
 root.render (Ventas)
 
 export default Ventas;
-

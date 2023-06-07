@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import './index.css';
+import Logo from './logo/logoMundomotos'
+
 
 class Header extends Component {
     render(){
@@ -16,7 +19,7 @@ class Header extends Component {
                 <div className='carrito'>
                     <i className='bx bx-cart'/>
                 </div>
-                <img src='#' alt='' className='hamburger'/>
+                <img src='#' alt="logo" className='hamburger'/>
                 <div className='menu_principal'>
                     <nav lassName='menu_registro'>
                         <a href='#'>Inicio</a> <br/>
@@ -29,16 +32,8 @@ class Header extends Component {
                         <a href='#'>Iniciar Secion</a> <br/>                        
                     </nav>
                 </div>
-                <div className='contenedor head'>
-                    <div className='inicio' id='menu'>
-                        <ul>
-                            <li id='logo'>
-                                <a href='#' >
-                                    <img src='#' width={150} alt='' />
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                <div className='contenedor head'>                    
+                    <Logo/>
                     <h1 className='titulo'>Visítanos y convierte tus sueños en realidad</h1>
                     <p className='copy'>Tenemos los mejores productos del mercado y a mejor precio.</p>
                 </div>
