@@ -1,5 +1,38 @@
 import React from 'react';
 import ReactDOM from'react-dom/client';
+import './ventas.css'
+import accesorio1 from '../imagenes/accesorio-1.jpg';
+import accesorio2 from '../imagenes/accesorio-2.jpg';
+import accesorio3 from '../imagenes/accesorio-3.jpg';
+import accesorio4 from '../imagenes/accesorio-4.jpg';
+import accesorio5 from '../imagenes/accesorio-5.jpg';
+import accesorio6 from '../imagenes/accesorio-6.jpg';
+import chaqueta from '../imagenes/accesorio-chaqueta.jpg';
+import cuatrimoto1 from '../imagenes/cuatri-moto-1.jpg';
+import cuatrimotofamilia from '../imagenes/cuatri-moto-familia.jpg';
+import cuatrimotoniño from '../imagenes/cuatrimoto-niño.jpg';
+import fondo from '../imagenes/fondo.jpg';
+import herramienta from '../imagenes/herramienta.jpg';
+import llantas from '../imagenes/llantas.jpg';
+import llaves from '../imagenes/llaves-herramienta.jpg';
+import logo from '../imagenes/logo.png';
+import repuestos from '../imagenes/repuestos.jpg';
+import boxer from '../imagenes/moto- boxer-125-2.jpg';
+import moto from '../imagenes/moto-superior-a-125-1.jpg';
+import motocicletaNiño from '../imagenes/motocicletas-para-niños.jpg';
+import moto2 from '../imagenes/moto-superior-a-125-2.jpg';
+import moto3 from '../imagenes/moto-superior-a-125- 4.jpg';
+import moto4 from '../imagenes/moto-superior-125-6.jpg';
+import moto5 from '../imagenes/moto-superior-125-5.jpg';
+import moto6 from '../imagenes/moto-superio-a-125-3.jpg';
+import moto7 from '../imagenes/moto-scooter-1.jpg';
+import moto8 from '../imagenes/moto-menor-a-125-1.jpg';
+import moto9 from '../imagenes/moto-enduro-4.jpg';
+import moto10 from '../imagenes/moto-enduro-3.jpg';
+import moto11 from '../imagenes/moto-enduro-2.jpg';
+import moto12 from '../imagenes/moto-enduro-1.jpg';
+import principal from '../imagenes/po-fondo.jpg';
+import boxer2 from '../imagenes/moto-boxer-125-1.jpg'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -7,12 +40,12 @@ function Ventas(){
 
     return (
         <body>
-        <header className='header' id='inicio'>
+        <header className='principal' id='inicio'>
             <nav className='menu-navegacion'>
                 <a href='index.js'>Inicio</a>
             </nav>
             <div className='carrito'>
-                <i></i>
+                <i class='bx bxs-cart'></i>
             </div>
             <div className='contenedor head'>
                 <h1 className='titulo'>Que ofrecemos</h1>
@@ -34,15 +67,15 @@ function Ventas(){
                     <b>¡No te lo pierdas!</b>
                     </p>                   
                     <div className='contenedor-galeria'>
-                    <img src="./la_pagina_web/cuatri moto 1.jpg" alt="" class="img" />
+                    <img src={cuatrimoto1} alt="" class="img" />
                     <div className='informacion'>
                         <h2 className='subtituloo'>
-                            Cuatrimoto TRX 520 Rubicon Modelo 2023
+                            Cuatrimoto TRX 520 Rubicon <br></br> Modelo 2023
                         </h2>
                         <p className='inf'>
                             Color: personalizado <br></br>
                             Cilindraje: 518 cc <br></br>
-                            Tipo de motor 4 tiempos (OHV)  Refrigerado por liquido <br></br>
+                            Tipo de motor 4 tiempos (OHV) <br></br>  Refrigerado por liquido <br></br>
                             Potencia maxima: 28,3 HP <br></br>
                             Valor: $65.790.000
                         </p>
@@ -52,15 +85,15 @@ function Ventas(){
                  </div>
                 </div>
                 <div className='contenedor-galeria'>
-                <img src="./la_pagina_web/motocicletas para niños.jpg" alt="" class="img"></img>
+                <img src={motocicletaNiño} alt="" class="img"></img>
                 <div className='informacion'>
                     <h2 className='subtituloo'>
-                        Moto cross CRF 50F Modelo 2022
+                        Moto cross CRF 50F Modelo <br></br> 2022
                     </h2>
                     <p className='inf'>
                         Color: personalizado <br></br>
                         Cilindraje: 49 cc <br></br>
-                        Tipo de motor: 4 tiempos 2 valvúlas (SOHC) Refrigerado por aire <br></br>
+                        Tipo de motor: 4 tiempos 2 <br></br> valvúlas (SOHC) Refrigerado por aire <br></br>
                         Potencia maxima: 3 HP @ 8,500 MIN-1 <br></br>
                         Valor: $9.750.000
                     </p>
@@ -70,7 +103,7 @@ function Ventas(){
                 </div>
                 </div>
                 <div className='contenedor-galeria'>
-                <img src="./la_pagina_web/moto superior a 125 2.jpg" alt="" class="img"/>
+                <img src={moto2} alt="" class="img"/>
                 <div className='informacion'>
                     <h2 className='subtituloo'>
                         Ninja H2 2023
@@ -78,7 +111,7 @@ function Ventas(){
                     <p className='inf'>
                         Color: personalizado <br></br>
                         Cilindraje: 998 cc <br></br>
-                        Tipo de motor: 4 tiempos sobrealimentado de cuatro cilindro <br></br>
+                        Tipo de motor: 4 tiempos <br></br> sobrealimentado de cuatro cilindro <br></br>
                         Valor: $95.980.000
                     </p>
                     <div className='carrito'>
@@ -87,7 +120,7 @@ function Ventas(){
                 </div>
                 </div>
                 <div className='contenedor-galeria'>
-                <img src="./la_pagina_web/moto superior a 125  4.jpg" alt="" class="img"/>
+                <img src={moto3} alt="" class="img"/>
                 <div className='informacion'>
                     <h2 className='subtituloo'>
                         YZF-R6 2023
@@ -95,7 +128,7 @@ function Ventas(){
                     <p className='inf'>
                         Color: personalizado <br></br>
                         Cilindraje: 599 cc <br></br>
-                        Tipo de motor: 4 tiempos (DOCH) Refrigerado por liquido <br></br>
+                        Tipo de motor: 4 tiempos (DOCH) <br></br> Refrigerado por liquido <br></br>
                         Potencia maxima: 116,7 HP a 14500 rpm <br></br>
                         Valor: $64.990.000
                     </p>
@@ -105,15 +138,15 @@ function Ventas(){
                 </div>
                 </div>
                 <div className='contenedor-galeria'>
-                <img src="./la_pagina_web/moto superior 125 6.jpg" alt="" class="img"/>
+                <img src={moto4} alt="" class="img"/>
                 <div className='informacion'>
                     <h2 className='subtituloo'>
-                        Harley-Davidson capitan america Chopper 1969
+                        Harley-Davidson capitan <br></br> america Chopper 1969
                     </h2>
                     <p className='inf'>
                         Color: personalizado <br></br>
                         Cilindraje: cc <br></br>
-                        Tipo de motor: 4 valvulas (SOHC) refrigerado por liquido <br></br>
+                        Tipo de motor: 4 valvulas (SOHC) <br></br> refrigerado por liquido <br></br>
                         Potencia maxima: 19,3 HP a 10000 rmp <br></br>
                         Valor: $15.450.000
                     </p>
@@ -123,15 +156,15 @@ function Ventas(){
                 </div>
                 </div>
                 <div className='contenedor-galeria'>
-                <img src="./la_pagina_web/moto superior 125 5.jpg" alt="" class="img"/>
+                <img src={moto5} alt="" class="img"/>
                 <div className='informacion'>
                     <h2 className='subtituloo'>
-                        Chopper Harley-Davidsson Panhead
+                        Chopper Harley-Davidsson <br></br> Panhead
                     </h2>
                     <p className='inf'>
                         Color: personalizado <br></br>
                         Cilindraje: 73,22 cc <br></br>
-                        Potencia maxima: 60 HP a 6000 rpm <br></br>
+                        Potencia maxima: 60 HP a 6000 <br></br> rpm <br></br>
                         Valor: $97.807.223
                     </p>
                     <div className='carrito'>
@@ -140,12 +173,12 @@ function Ventas(){
                 </div>
                 </div>
                 <div className='contenedor-galeria'>
-                <img src="./la_pagina_web/moto superio a 125 3.jpg" alt="" class="img"/>
+                <img src={moto6} alt="" class="img"/>
                 <div className='informacion'>
                     <h2 className='subtituloo'>
                         R15 2024
                     </h2>
-                    <p className='informacion'>
+                    <p className='inf'>
                         Color: personalizado <br></br>
                         Cilindraje: 1,923 cc <br></br>
                         Potencia maxima: 102 HP a 5020 rpm <br></br>
@@ -157,7 +190,7 @@ function Ventas(){
                 </div>
                 </div>
                 <div className='contenedor-galeria'>
-                <img src="./la_pagina_web/moto enduro 3.jpg" alt="" class="img"/>
+                <img src={moto10} alt="" class="img"/>
                 <div className='informacion'>
                     <h2 className='subtituloo'>
                         Motos enduro XTZ-250 2012
@@ -165,7 +198,7 @@ function Ventas(){
                     <p className='inf'>
                         Color: personalizado <br></br>
                         Cilindraje: 249 cc <br></br>
-                        Tipo de motor: 4T (SOCH) Refrigerado por aire y aceite <br></br>
+                        Tipo de motor: 4T (SOCH) Refrigerado <br></br> por aire y aceite <br></br>
                         Potencia maxima: 20,4 HP a 8000 rpm <br></br>
                         Valor: $25.500.000
                     </p>
@@ -175,7 +208,7 @@ function Ventas(){
                 </div>
                 </div>
                 <div className='contenedor-galeria'>
-                <img src="./la_pagina_web/moto enduro 2.jpg" alt="" class="img"/>
+                <img src={moto11} alt="" class="img"/>
                 <div className='informacion'>
                     <h2 className='subtituloo'>
                         Suzuki DR-200SE
@@ -183,7 +216,7 @@ function Ventas(){
                     <p className='inf'>
                         Color: personalizado <br></br>
                         Cilindraje: 199 cc <br></br>
-                        Tipo de motor: 4 tiempos (SOCH) refrigerado por aire y aceite <br></br>
+                        Tipo de motor: 4 tiempos (SOCH) <br></br> refrigerado por aire y aceite <br></br>
                         Potencia maxima: 20 HP a 8500 rpm <br></br>
                         Valor: $25.500.000
                     </p>
@@ -193,7 +226,7 @@ function Ventas(){
                 </div>
                 </div>
                 <div className='contenedor-galeria'>
-                <img src="./la_pagina_web/moto enduro 1.jpg" alt="" class="img"/>
+                <img src={moto12} alt="" class="img"/>
                 <div className='informacion'>
                     <h2 className='subtituloo'>
                         KTM 350 SX-F 2023
@@ -211,7 +244,7 @@ function Ventas(){
                 </div>
                 </div>
                 <div className='contenedor-galeria'>
-                <img src="./la_pagina_web/moto endur 4.jpg" alt="" class="img"/>
+                <img src={moto9} alt="" class="img"/>
                 <div className='informacion'>
                     <h2 className='subtituloo'>
                         Yamaha YZ125 2022
@@ -229,7 +262,7 @@ function Ventas(){
                 </div>
                 </div>
                 <div className='contenedor-galeria'>
-                <img src="./la_pagina_web/moto boxer 125 2.jpg" alt="" class="img"/>
+                <img src={boxer} alt="" width={600} class="img"/>
                 <div className='informacion'>
                     <h2 className='subtituloo'>
                         BOXER S PRO
@@ -247,7 +280,7 @@ function Ventas(){
                 </div>
                 </div>
                 <div className='contenedor-galeria'>
-                <img src="./la_pagina_web/moto boxer 125 1.jpg" alt="" class="img"/>
+                <img src={boxer2} alt="" class="img"/>
                 <div className='informacion'>
                     <h2 className='subtituloo'>
                         Boxer S
@@ -265,7 +298,7 @@ function Ventas(){
                 </div>
                 </div>
                 <div className='contenedor-galeria'>
-                <img src="./la_pagina_web/cuatrimoto niñ@ 1.jpg" alt="" class="img"/>
+                <img src={cuatrimotoniño} alt="" class="img"/>
                 <div className='informacion'>
                     <h2 className='subtituloo'>
                         Cuatrimoto YFM90R
@@ -273,7 +306,7 @@ function Ventas(){
                     <p className='inf'>
                         Color: personalizado <br></br>
                         Cilindraje: 90 cc <br></br>
-                        Tipo de motor: 4 tiempo (SOCH), 2 valvulas, refrigeradopor aire <br></br>
+                        Tipo de motor: 4 tiempo (SOCH), 2 valvulas, <br></br> refrigeradopor aire <br></br>
                         Potencia maxima: 7.59 HP a 7500 rpm <br></br>
                         Valor: $20.000.000
                     </p>
@@ -283,7 +316,7 @@ function Ventas(){
                 </div>
                 </div>
                 <div className='contenedor-galeria'>
-                <img src="./la_pagina_web/cuatri moto familia.jpg" alt="" class="img"/>
+                <img src={cuatrimotofamilia} alt="" class="img"/>
                 <div className='informacion'>
                     <h2 className='subtituloo'>
                         Cuatrimoto todos los tamaños
@@ -312,14 +345,16 @@ function Ventas(){
                         garantizados y de excelente calidad.
                     </p>
                     <div className='contenedor-galeria'>
-                    <img src="./la_pagina_web/accesorio 1.jpg" alt="" class="img"/>
+                    <img src={accesorio1} alt="accesorio 1" class="img"/>
                     <div className='informacion'>
                         <h2 className='subtituloo'>
                             Kit de protección para motocicletas
                         </h2>
                         <p className='inf'>
                             Color: personalizado <br></br>
-                            Descripción; Casco habatible, guantes con protección en nudillos y botas impermeables <br></br>
+                            Descripción; Casco habatible, <br></br>
+                             guantes con protección en nudillos <br></br> 
+                             y botas impermeables <br></br>
                             Valor: $588.000
                         </p>
                         <div className='carrito'>
@@ -328,14 +363,14 @@ function Ventas(){
                     </div>
                     </div>
                     <div className='contenedor-galeria'>
-                    <img src="./la_pagina_web/accesorio chaqueta.jpg" alt="" class="img"/>
+                    <img src={chaqueta} alt="" class="img"/>
                     <div className='informacion'>
                         <h2 className='subtituloo'>
                             Chamarra de cuero
                         </h2>
                         <p className='inf'>
                             Color: personalizado <br></br>
-                            Descripción: Chaqueta de proteccion para motociclistas antifricción <br></br>
+                            Descripción: Chaqueta de proteccion para <br></br> motociclistas antifricción <br></br>
                             Valor: $208.710
                         </p>
                         <div className='carrito'>
@@ -344,7 +379,7 @@ function Ventas(){
                     </div>
                     </div>
                     <div className='contenedor-galeria'>
-                    <img src="./la_pagina_web/accesorio 5.jpg" alt="" class="img"/>
+                    <img src={accesorio5} alt="" width={500} class="img"/>
                     <div className='informacion'>
                         <h2 className='subtituloo'>
                             Casco plano certificado
@@ -360,7 +395,7 @@ function Ventas(){
                     </div>
                     </div>
                     <div className='contenedor-galeria'>
-                    <img src="./la_pagina_web/accesorio 2.jpg" alt="" class="img"/>
+                    <img src={accesorio2} alt="" class="img"/>
                     <div className='informacion'>
                         <h2 className='subtituloo'>
                             Kit para motociclista
@@ -379,7 +414,7 @@ function Ventas(){
                     </div>
                     </div>
                     <div className='contenedor-galeria'>
-                    <img src="./la_pagina_web/accesorio 4.jpg" alt="" class="img"/>
+                    <img src={accesorio4} alt="" class="img"/>
                     <div className='informacion'>
                         <h2 className='subtituloo'>
                             Kit para motociclista
@@ -398,7 +433,7 @@ function Ventas(){
                     </div>
                     </div>
                     <div className='contenedor-galeria'>
-                    <img src="./la_pagina_web/accesorio 3.jpg" alt="" class="img"/>
+                    <img src={accesorio3} alt="" width={500} class="img"/>
                     <div className='informacion'>
                         <h2 className='subtituloo'>
                             Kit para motociclista economico
@@ -427,10 +462,10 @@ function Ventas(){
                     haz tu pedido y lo llevaremos hasta tu ubicación.
                     </p>
                     <div className='contenedor-galeria'>
-                    <img src="./la_pagina_web/herramienta.jpg" alt="" class="img"/>
+                    <img src={herramienta} alt="" width={500} class="img"/>
                     <div className='informacion'>
                         <h2 className='subtituloo'>
-                            Kit de herramientas STANLEY X 60 pcs
+                            Kit de herramientas <br></br> STANLEY X 60 pcs
                         </h2>
                         <p className='inf'>
                             Valor: $480.000
@@ -441,10 +476,10 @@ function Ventas(){
                     </div>
                     </div>
                     <div className='contenedor-galeria'>
-                    <img src="./la_pagina_web/repuestos.jpg" alt="" class="img"/>
+                    <img src={repuestos} alt="" width={550} class="img"/>
                     <div className='informacion'>
                         <h2 className='subtituloo'>
-                            Kit de caja de piñones genericos
+                            Kit de caja de piñones <br></br> genericos
                         </h2>
                         <p className='inf'>
                             Valor: $750.000
@@ -455,7 +490,7 @@ function Ventas(){
                     </div>
                     </div>
                     <div className='contenedor-galeria'>
-                    <img src=".//la_pagina_web/llaves herramienta.jpg" alt="" class="img"/>
+                    <img src={llaves} alt="" class="img"/>
                     <div className='informacion'>
                         <h2 className='subtituloo'>
                             Llaves mixtas
@@ -469,10 +504,10 @@ function Ventas(){
                     </div>
                     </div>
                     <div className='contenedor-galeria'>
-                    <img src="./la_pagina_web/llantas.jpg" alt="" class="img" id="llantas"/>
+                    <img src={llantas} alt="" width={550} class="img" id="llantas"/>
                     <div className='informacion'>
                         <h2 className='subtituloo'>
-                            Llantas spot, lagarto, pistera
+                            Llantas spot, lagarto, <br></br> pistera
                         </h2>
                         <p className='inf'>
                             Valor: $189.000

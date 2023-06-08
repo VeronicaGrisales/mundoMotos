@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 import './index.css';
+<<<<<<< HEAD
 import Logo from './logo/logoMundomotos';
 import Buscar from './buscador/buscador';
+=======
+import Logo from '../logo/logoMundomotos'
+>>>>>>> 5efbd5b0b650322b4bf9e549c916841fe535dd06
 
 
 class Header extends Component {
