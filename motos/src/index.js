@@ -17,16 +17,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render (
     <>
-<<<<<<< HEAD
-    
-    <Header/>
-    {/*<Componente/>
-    <Ventas/>
-<Log/>*/}
-   
-=======
     <Ventas/> 
->>>>>>> 5efbd5b0b650322b4bf9e549c916841fe535dd06
     </>
     );
 
