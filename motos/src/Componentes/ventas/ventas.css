@@ -104,9 +104,62 @@ body {
     margin-bottom: 30px;
 }
 
+.gallery img {
+    object-fit: cover;
+    display: block;
+    margin-bottom: 15px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    cursor: pointer;
+}
+
 .contenedor-galeria {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-bottom: 10%;
+}
+
+
+
+.showImage {
+    transform: scale(1);
+}
+
+.container-img {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform .4s ease-in;
+}
+
+.move {
+    transform: translateX(0);  
+}
+
+.img-show {
+    height: 80%;
+    display: block;
+    object-fit: cover;
+}
+
+.copyl {
+    position: fixed;
+    color: #fff;
+    bottom: 40px;
+}
+
+.bx .bx-x {
+    position: absolute;
+    color: #fff;
+    top: 20px;
+    right: 10px;
+    font-size: 40px;
+    cursor: pointer;
 }

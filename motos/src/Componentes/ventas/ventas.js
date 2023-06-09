@@ -504,7 +504,7 @@ function Ventas(){
                     </div>
                     </div>
                     <div className='contenedor-galeria'>
-                    <img src={llantas} alt="" width={550} class="img" id="llantas"/>
+                    <img src={llantas} alt="" width={550} class="img"/>
                     <div className='informacion'>
                         <h2 className='subtituloo'>
                             Llantas spot, lagarto, <br></br> pistera
@@ -519,12 +519,44 @@ function Ventas(){
                     </div>
                 </div>
             </section>
+            <div className='container-img'>
+                <img src={accesorio6} className='img-show'></img>
+                <i class='bx bx-x'></i>
+                <p className='copy1'></p>
+            </div>
         </main>
         </body>
+        
     );
     
 };
 
-root.render (Ventas)
+function Lightbox() {
+    const images = document.querySelectorAll('.img');
+    const containerImage = document.querySelector('.container-img');
+    const imageContainer = document.querySelector('.img-show');
+    
+    images.forEach(image => {
+        image.addEventListener('click', ()=>{
+    
+            addImage(image.getAttribute('src'), image.getAttribute('alt'));
+    
+             //console.log(image.getAttribute('src'))
+             //console.log(image.getAttribute('alt'))
+        })
+    })
+    
+    const addImage = (srcImage, altImage) => {
+        containerImage.classList.toggle('move');
+        imageContainer.src = srcImage;
+    }
+    
+    containerImage.addEventListener('click', ()=>{
+        containerImage.classList.toggle('move');
+    })
+    }
+    
+
+root.render (Ventas, Lightbox) 
 
 export default Ventas;
