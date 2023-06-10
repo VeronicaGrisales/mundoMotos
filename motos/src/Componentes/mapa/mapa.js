@@ -1,28 +1,32 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import ReactDOM from'react-dom/client';
-import { GoogleMap, LoadScript} from '@react-google-maps/api';
+import { GoogleMap, LoadScript, Marker} from '@react-google-maps/api';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 const containerStyle ={
-  width: '1400px',
-  height: '1400px'
+  width: '400px',
+  height: '400px'
 }
-
-const center = {
-  lat: 6.1554,
-  lng: -75.3733
-}
-
 
 const Mapa = ()=>{ 
+  const [coordenadas, setCoordenadas] = useState(null);
+
+  useEffect(()=>{
+    const latitud = 6.2488205;
+    const longitud = -75.5763065;
+    setCoordenadas({lat: latitud, lng: longitud});
+  }, []);
+
   return (
     <LoadScript googleMapsApiKey='AIzaSyCWSda7b7myI0pdV7jcd_cBwK15y-8_-lY'>
     <GoogleMap
     mapContainerStyle={containerStyle}
-    center={center}
-    zoom={10}
-    />
+    center={coordenadas}
+    zoom={15}
+    >
+    {coordenadas && <Marker position={coordenadas}/>}
+    </GoogleMap>
     </LoadScript>
   )
 }

@@ -531,7 +531,7 @@ function Ventas(){
     
 };
 
-function Lightbox() {
+import function Lightbox() {
     const images = document.querySelectorAll('.img');
     const containerImage = document.querySelector('.container-img');
     const imageContainer = document.querySelector('.img-show');
@@ -559,4 +559,4 @@ function Lightbox() {
 
 root.render (Ventas, Lightbox) 
 
-export default Ventas;
+export default (Ventas);
