@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./index.css";
 import Logo from "../logo/logoMundomotos";
 import Buscar from "./buscador/buscador";
-
+import Hamburguer from '../imagenes/hamburguer.svg'
 class Header extends Component {
   render() {
     return (
@@ -12,7 +12,7 @@ class Header extends Component {
           <div className="carrito">
             <i className="bx bx-cart" />
           </div>
-          <img src="#" alt="logo" className="hamburger" />
+          <img src={Hamburguer} alt="logo" className="hamburger" />
           <div className="menu_principal">
             <nav className="menu_registro">
               <a href="#">Inicio</a> <br />
