@@ -1,0 +1,57 @@
+.lightbox {
+    display: flex;
+    align-items: center;
+}
+
+.lightbox img {
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+
+.abrir {
+ padding: 15px 30px;
+ cursor: pointer;
+ border-radius: 7px ;
+ background-color: black;
+ color: #fff;
+ font-size: 15px;
+ margin-left: 110px;
+ margin-top: 25px;
+ font-family: 'Playfair Display', serif;
+}
+
+.cerrar {
+ padding: 15px 30px;
+ cursor: pointer;
+ border-radius: 7px ;
+ background-color: black;
+ color: #fff;
+ position: absolute;
+ right: 10px;
+}
+
+.anterior{
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 7px ;
+    background-color: black;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 25px;
+    font-family: 'Playfair Display', serif;
+}
+
+.siguiente {
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 7px ;
+    background-color: black;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 25px;
+    font-family: 'Playfair Display', serif;
+}
+

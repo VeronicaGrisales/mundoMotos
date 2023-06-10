@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from'react-dom/client';
 import './ventas.css'
+import Lightbox from '../lightbox/lightbox';
 import accesorio1 from '../imagenes/accesorio-1.jpg';
 import accesorio2 from '../imagenes/accesorio-2.jpg';
 import accesorio3 from '../imagenes/accesorio-3.jpg';
@@ -34,10 +35,11 @@ import moto12 from '../imagenes/moto-enduro-1.jpg';
 import principal from '../imagenes/po-fondo.jpg';
 import boxer2 from '../imagenes/moto-boxer-125-1.jpg'
 
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 function Ventas(){
-
     return (
         <body>
         <header className='principal' id='inicio'>
@@ -57,6 +59,15 @@ function Ventas(){
             </div>
         </header>
         <main>
+            <section className='gallery'>
+                <div className='contenedor'>
+                <p className='copy'>
+                    Si quieres ver todos nuestros prodructos en un genial Lightbox te invitamos a que des
+                    click en el siguiente boton 👇 <br></br>
+                    <Lightbox />
+                </p>
+                </div>
+            </section>
             <section className='gallery' id='motos'>
                 <div className='contenedor'>
                     <h2 className='subtitulo'>Motos</h2>
@@ -531,32 +542,6 @@ function Ventas(){
     
 };
 
-import function Lightbox() {
-    const images = document.querySelectorAll('.img');
-    const containerImage = document.querySelector('.container-img');
-    const imageContainer = document.querySelector('.img-show');
-    
-    images.forEach(image => {
-        image.addEventListener('click', ()=>{
-    
-            addImage(image.getAttribute('src'), image.getAttribute('alt'));
-    
-             //console.log(image.getAttribute('src'))
-             //console.log(image.getAttribute('alt'))
-        })
-    })
-    
-    const addImage = (srcImage, altImage) => {
-        containerImage.classList.toggle('move');
-        imageContainer.src = srcImage;
-    }
-    
-    containerImage.addEventListener('click', ()=>{
-        containerImage.classList.toggle('move');
-    })
-    }
-    
-
-root.render (Ventas, Lightbox) 
+root.render (Ventas) 
 
 export default (Ventas);
