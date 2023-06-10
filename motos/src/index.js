@@ -1,3 +1,9 @@
+/*
+Integrantes:
+Veronica Grisales Florez
+Carlos Arturo Rivas Serna
+*/
+
 import React from 'react';
 import ReactDOM from'react-dom/client';
 /*
