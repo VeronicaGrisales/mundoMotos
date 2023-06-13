@@ -4,13 +4,18 @@ import Logo from "../logo/logoMundomotos";
 import Buscar from "./buscador/buscador";
 import Hamburguer from "../imagenes/hamburguer.svg";
 import Sueño from "../imagenes/buscamos la moto de tus sueños.jpg";
-import Acce1 from '../imagenes/accesorio-1.jpg'
-import Acce2 from '../imagenes/accesorio-chaqueta.jpg'
-import Acce3 from '../imagenes/cuatri-moto-1.jpg'
-import Acce4 from '../imagenes/herramienta.jpg'
-import Acce5 from '../imagenes/llaves-herramienta.jpg'
-import Acce6 from '../imagenes/llantas.jpg'
-
+import Acce1 from "../imagenes/accesorio-1.jpg";
+import Acce2 from "../imagenes/accesorio-chaqueta.jpg";
+import Acce3 from "../imagenes/cuatri-moto-1.jpg";
+import Acce4 from "../imagenes/herramienta.jpg";
+import Acce5 from "../imagenes/llaves-herramienta.jpg";
+import Acce6 from "../imagenes/llantas.jpg";
+import Acce7 from "../imagenes/motocicletas-para-niños.jpg";
+import Expert1 from "../imagenes/repuestos.jpg";
+import Expert2 from "../imagenes/moto personalizada.png";
+import Expert3 from "../imagenes/seguridad2.png";
+import Foot from "../tercerComponente/footer";
+import Mapa from "../mapa/mapa";
 class Header extends Component {
   render() {
     return (
@@ -86,41 +91,13 @@ class Header extends Component {
             <div className="contenedor">
               <h2 className="subtitulo">Galería</h2>
               <div className="contenedor_galeria">
-                <img
-                  src={Acce1}
-                  alt=""
-                  className="img-principal"
-                />
-                <img
-                  src={Acce2}
-                  alt=""
-                  className="img-principal"
-                />
-                <img
-                  src={Acce3}
-                  alt=""
-                  className="img-principal"
-                />
-                <img
-                  src={Acce4}
-                  alt=""
-                  className="img-principal"
-                />
-                <img
-                  src={Acce5}
-                  alt=""
-                  className="img-principal"
-                />
-                <img
-                  src={Acce6}
-                  alt=""
-                  className="img-principal"
-                />
-                <img
-                  src="../la_pagina_web/motocicletas para niños.jpg"
-                  alt=""
-                  className="img-principal"
-                />
+                <img src={Acce1} alt="" className="img-principal" />
+                <img src={Acce2} alt="" className="img-principal" />
+                <img src={Acce3} alt="" className="img-principal" />
+                <img src={Acce4} alt="" className="img-principal" />
+                <img src={Acce5} alt="" className="img-principal" />
+                <img src={Acce6} alt="" className="img-principal" />
+                <img src={Acce7} alt="" className="img-principal" />
               </div>
             </div>
           </section>
@@ -133,20 +110,26 @@ class Header extends Component {
             <h2 className="subtitulo">Somos expertos en:</h2>
             <section className="experts">
               <div className="cont_expert">
-                <img src="../la_pagina_web/repuestos.jpg" alt="" />
+                <img src={Expert1} alt="" />
                 <h3 className="n_expert">Mantenimiento</h3>
               </div>
               <div className="cont_expert">
-                <img src="../la_pagina_web/moto personalizada.png" alt="" />
+                <img src={Expert2} alt="" />
                 <h3 className="n_expert">Personalización</h3>
               </div>
               <div className="cont_expert">
-                <img src="../la_pagina_web/seguridad2.png" alt="" />
+                <img src={Expert3} alt="" />
                 <h3 className="n_expert">Seguridad</h3>
               </div>
             </section>
           </section>
+          <section>
+            <Mapa />
+          </section>
         </main>
+        <>
+          <Foot />
+        </>
       </body>
     );
   }
