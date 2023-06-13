@@ -2,7 +2,14 @@ import React, { Component } from "react";
 import "./index.css";
 import Logo from "../logo/logoMundomotos";
 import Buscar from "./buscador/buscador";
-import Hamburguer from '../imagenes/hamburguer.svg'
+import Hamburguer from "../imagenes/hamburguer.svg";
+import Sueño from "../imagenes/buscamos la moto de tus sueños.jpg";
+import Acce1 from '../imagenes/accesorio-1.jpg'
+import Acce2 from '../imagenes/accesorio-chaqueta.jpg'
+import Acce3 from '../imagenes/cuatri-moto-1.jpg'
+import Acce4 from '../imagenes/herramienta.jpg'
+import Acce5 from '../imagenes/llaves-herramienta.jpg'
+import Acce6 from '../imagenes/llantas.jpg'
 
 class Header extends Component {
   render() {
@@ -40,10 +47,7 @@ class Header extends Component {
           <section className="contenedor" id="servicio">
             <h2 className="subtitulo">Nuestros Servicios</h2>
             <div className="contenedor_servicio">
-              <img
-                src="../la_pagina_web/buscamos la moto de tus sueños.jpg"
-                alt=""
-              />
+              <img src={Sueño} alt="" />
               <div className="checklist_servicio">
                 <div className="service">
                   <h3 className="n_service">
@@ -83,32 +87,32 @@ class Header extends Component {
               <h2 className="subtitulo">Galería</h2>
               <div className="contenedor_galeria">
                 <img
-                  src="../la_pagina_web/accesorio 1.jpg"
+                  src={Acce1}
                   alt=""
                   className="img-principal"
                 />
                 <img
-                  src="../la_pagina_web/accesorio chaqueta.jpg"
+                  src={Acce2}
                   alt=""
                   className="img-principal"
                 />
                 <img
-                  src="../la_pagina_web/cuatri moto 1.jpg"
+                  src={Acce3}
                   alt=""
                   className="img-principal"
                 />
                 <img
-                  src="../la_pagina_web/herramienta.jpg"
+                  src={Acce4}
                   alt=""
                   className="img-principal"
                 />
                 <img
-                  src="../la_pagina_web/llaves herramienta.jpg"
+                  src={Acce5}
                   alt=""
                   className="img-principal"
                 />
                 <img
-                  src="../la_pagina_web/llantas.jpg"
+                  src={Acce6}
                   alt=""
                   className="img-principal"
                 />
