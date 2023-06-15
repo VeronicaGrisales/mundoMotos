@@ -23,13 +23,16 @@ import Menu from './Componentes/primerComponente/menu';
 
 import Ventas from './Componentes/ventas/ventas';
 
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render (
     <>
-    
+     
+   
     <Ventas/>
-    
+
     </>
     );
 

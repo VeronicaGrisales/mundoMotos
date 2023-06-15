@@ -45,7 +45,7 @@ function Ventas(){
         <body className='sales'>
             <Buscador />
         <header className='principal' id='inicio'>
-
+            <Buscador />
             <nav className='menu-navegacion'>
                 <a href='index.js'>Inicio</a>
             </nav>
