@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./index.css";
 import Logo from "../logo/logoMundomotos";
-import Buscar from "./buscador/buscador";
 import Hamburguer from "../imagenes/hamburguer.svg";
 import Sueño from "../imagenes/buscamos la moto de tus sueños.jpg";
 import Acce1 from "../imagenes/accesorio-1.jpg";
@@ -21,7 +20,6 @@ class Header extends Component {
     return (
       <body>
         <header className="prin" id="inicio">
-          <Buscar />
           <div className="carrito">
             <i className="bx bx-cart" />
           </div>
