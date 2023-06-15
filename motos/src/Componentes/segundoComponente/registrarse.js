@@ -1,9 +1,9 @@
 import React from 'react';
-import ReactDOM from'react-dom/client';
+/*import ReactDOM from'react-dom/client';*/
 import './registro.css'
 import Footer from '../tercerComponente/footer';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+/*const root = ReactDOM.createRoot(document.getElementById('root'));*/
 
 function Registrarse () {
     
@@ -26,7 +26,7 @@ function Registrarse () {
             <a href='#'> terminos y condiciones</a>
         </p>
 
-        <button className='boton'>Registrarse</button>
+        <button className='boton' data-testid="boton" type='submit' disabled>Registrarse</button>
         <p>
         <a href='#'>
         ¿Ya tengo cuenta?
