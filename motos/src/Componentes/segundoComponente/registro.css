@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+.navigation-menu{
+    font-size: 200%;
+    color: black;
+}
+
+.navigation-menu a{
+    color: black;
+}
+
 .form-register {
     width: 400px;
     background: #24303c;
@@ -21,11 +30,8 @@
     margin-bottom: 20px;
 }
 
-body {
-    background: #bdc3c7;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+.record {
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
 }
 
 .controls {
@@ -65,4 +71,12 @@ body {
 .form-register a:hover {
     color: white;
     text-decoration: underline;
+}
+
+.final{
+    margin-top: 40px;
+}
+
+.boton{
+    margin-top: 40px;
 }

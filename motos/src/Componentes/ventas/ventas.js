@@ -1,6 +1,7 @@
 import React from 'react';
 /*import ReactDOM from'react-dom/client';*/
 import './ventas.css'
+import Footer from '../tercerComponente/footer'
 import Lightbox from '../lightbox/lightbox';
 import accesorio1 from '../imagenes/accesorio-1.jpg';
 import accesorio2 from '../imagenes/accesorio-2.jpg';
@@ -41,7 +42,7 @@ import boxer2 from '../imagenes/moto-boxer-125-1.jpg'
 
 function Ventas(){
     return (
-        <body>
+        <body className='sales'>
         <header className='principal' id='inicio'>
             <nav className='menu-navegacion'>
                 <a href='index.js'>Inicio</a>
@@ -536,6 +537,7 @@ function Ventas(){
                 <p className='copy1'></p>
             </div>
         </main>
+        <Footer />
         </body>
         
     );
