@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from'react-dom/client';
 import './registro.css'
+import Footer from '../tercerComponente/footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 function Registrarse () {
     
     return (
-        <body>
-            <nav className='menu-navegacion'>
+        <body className='record'>
+            <nav className='navigation-menu'>
                 <a href='index.js'>Inicio</a>
             </nav>
         <section className='form-register'>
@@ -31,6 +32,10 @@ function Registrarse () {
         ¿Ya tengo cuenta?
         </a>
         </p>
+        </section>
+
+        <section className='final'>
+        <Footer />
         </section>
     </body>
     );

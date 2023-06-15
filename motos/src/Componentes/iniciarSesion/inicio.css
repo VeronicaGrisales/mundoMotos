@@ -5,7 +5,7 @@
     font-family: sans-serif;
 }
 
-body{
+.major{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -93,4 +93,3 @@ form button{
     cursor: pointer;
     font-size: 30px;
 }
-
