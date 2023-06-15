@@ -8,6 +8,6 @@ test('Verificar el texto que acompaña a la api', () => {
 
     const { getByText }  = render(<Index />);
 
-    expect (getByText(texto)).toBeInTheDocument();
+   expect (getByText(texto)).toBeInTheDocument();
 
  })
