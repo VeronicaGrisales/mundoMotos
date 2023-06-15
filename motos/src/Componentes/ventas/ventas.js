@@ -35,7 +35,7 @@ import moto11 from '../imagenes/moto-enduro-2.jpg';
 import moto12 from '../imagenes/moto-enduro-1.jpg';
 import principal from '../imagenes/po-fondo.jpg';
 import boxer2 from '../imagenes/moto-boxer-125-1.jpg'
-
+import Buscador from '../heade/buscador/buscador'
 
 
 /*const root = ReactDOM.createRoot(document.getElementById('root'));*/
@@ -44,6 +44,7 @@ function Ventas(){
     return (
         <body className='sales'>
         <header className='principal' id='inicio'>
+            <Buscador />
             <nav className='menu-navegacion'>
                 <a href='index.js'>Inicio</a>
             </nav>

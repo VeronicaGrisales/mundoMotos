@@ -32,7 +32,7 @@ input {
     top: 0;
     width: 80px;
     height: 80px;
-    background: black;
+    background: beige;
     line-height: 80px;
     border-radius: 50%;
     text-align: center;
@@ -42,7 +42,7 @@ input {
 
 .btn i {
     font-size: 25px;
-    color: white;
+    color: black;
     line-height: 80px;
     transition: all .7s ease;
 }
@@ -56,5 +56,5 @@ input {
 }
 
 .btn:hover {
-    background: #000;
+    background: beige;
 }
