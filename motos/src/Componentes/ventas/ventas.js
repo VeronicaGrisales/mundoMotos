@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from'react-dom/client';
+/*import ReactDOM from'react-dom/client';*/
 import './ventas.css'
 import Lightbox from '../lightbox/lightbox';
 import accesorio1 from '../imagenes/accesorio-1.jpg';
@@ -37,7 +37,7 @@ import boxer2 from '../imagenes/moto-boxer-125-1.jpg'
 
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+/*const root = ReactDOM.createRoot(document.getElementById('root'));*/
 
 function Ventas(){
     return (
@@ -542,6 +542,6 @@ function Ventas(){
     
 };
 
-root.render (Ventas) 
+/*root.render (Ventas) */
 
 export default (Ventas);

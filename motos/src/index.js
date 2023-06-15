@@ -7,9 +7,9 @@ Carlos Arturo Rivas Serna
 import React from 'react';
 import ReactDOM from'react-dom/client';
 /*
-import Ventas from './Componentes/ventas/ventas';
-
 import Footer from './Componentes/tercerComponente/footer';
+
+import Header from './Componentes/heade/index';
 import Mapa from './Componentes/mapa/mapa';
 import Registrarse from './Componentes/segundoComponente/registrarse';
 import Menu from './Componentes/primerComponente/menu';
@@ -31,7 +31,7 @@ root.render (
     {/*
     <Header/>
     <Mapa/>
-    <Ventas/>
+    
     <Buscar/>
     <Menu/> 
     <Header/>
