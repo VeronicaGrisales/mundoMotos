@@ -15,20 +15,21 @@ import Registrarse from './Componentes/segundoComponente/registrarse';
 import Menu from './Componentes/primerComponente/menu';
 import Inicio from './Componentes/iniciarSesion/inicio'
 import Buscar from './Componentes/heade/buscador/buscador';
-
-*/
-
 import Header from './Componentes/heade/index';
+*/
+ import Nav from './Componentes/heade/nav';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render (
     <>
-    <Header/>
+    <Nav/>
     </>
     );
 
     {/*
+    <Header/>
     <Mapa/>
     <Ventas/>
     <Buscar/>
