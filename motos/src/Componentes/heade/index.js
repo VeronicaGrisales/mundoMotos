@@ -124,7 +124,7 @@ class Header extends Component {
             </section>
           </section>
           <section>
-            <Mapa />
+            <Mapa/>
           </section>
         </main>
         <>
