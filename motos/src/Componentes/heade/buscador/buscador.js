@@ -1,8 +1,8 @@
 import React from 'react';
-import  ReactDOM  from 'react-dom/client';
+/*import  ReactDOM  from 'react-dom/client';*/
 import './buscador.css'
 
-const root = ReactDOM.createRoot(document.getElementById('root'))
+/*const root = ReactDOM.createRoot(document.getElementById('root'))*/
 
 function Buscar() {
   return (
@@ -17,5 +17,5 @@ function Buscar() {
     </div>
   );
 }
-root.render(Buscar);
+/*root.render(Buscar);*/
 export default Buscar;

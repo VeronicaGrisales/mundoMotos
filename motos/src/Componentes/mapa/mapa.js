@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import ReactDOM from'react-dom/client';
+/*import ReactDOM from'react-dom/client';*/
 import { GoogleMap, LoadScript, Marker} from '@react-google-maps/api';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+/*const root = ReactDOM.createRoot(document.getElementById('root'));*/
 
 const containerStyle ={
   width: '400px',
@@ -31,6 +31,6 @@ const Mapa = ()=>{
   )
 }
 
-root.render (Mapa) 
+/*root.render (Mapa) */
 
 export default Mapa
