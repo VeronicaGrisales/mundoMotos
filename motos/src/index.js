@@ -16,14 +16,14 @@ import Registrarse from './Componentes/segundoComponente/registrarse';
 import Menu from './Componentes/primerComponente/menu';
 import Inicio from './Componentes/iniciarSesion/inicio'
 import Buscar from './Componentes/heade/buscador/buscador';
-import Header from './Componentes/heade/index';
+import Ventas from './Componentes/ventas/ventas';
 import Header from './Componentes/heade/index';
 import Menu from './Componentes/primerComponente/menu';
 */
 
-import Ventas from './Componentes/ventas/ventas';
 
 
+import Header from './Componentes/heade/index';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -31,7 +31,7 @@ root.render (
     <>
      
    
-    <Ventas/>
+     <Header/>
 
     </>
     );
@@ -40,10 +40,10 @@ root.render (
     <Nav/>
      <Menu/>
     <Mapa/>
-    
+    <Ventas/>
     <Buscar/>
      <Menu/>
-    <Header/>
+    
     <Footer/>
     <Inicio/>
     <Registrarse/>
