@@ -20,7 +20,7 @@ class Header extends Component {
   render() {
     return (
       <body>
-        <header className="header" id="inicio">
+        <header className="prin" id="inicio">
           <Buscar />
           <div className="carrito">
             <i className="bx bx-cart" />
@@ -28,12 +28,12 @@ class Header extends Component {
           <img src={Hamburguer} alt="logo" className="hamburger" />
           <div className="menu_principal">
             <nav className="menu_registro">
-              <a href="#">Inicio</a> <br />
-              <a href="#">Servicios</a> <br />
+              <a href="#inicio">Inicio</a> <br />
+              <a href="#servicio">Servicios</a> <br />
               <a href="#">¿Que ofrecemos?</a> <br />
-              <a href="#">Galeria</a> <br />
-              <a href="#">Expertos en</a> <br />
-              <a href="#">Contactanos</a> <br />
+              <a href="#portafolio">Galeria</a> <br />
+              <a href="#expertos">Expertos en</a> <br />
+              <a href="#mapa">Contactanos</a> <br />
               <a href="#">Registrate</a> <br />
               <a href="#">Iniciar Secion</a> <br />
             </nav>
@@ -123,13 +123,26 @@ class Header extends Component {
               </div>
             </section>
           </section>
-          <section>
+          <section className="ubicacion" id="mapa">
+            <div>
+            <h2 className="subtitulo">Nuestra ubicación</h2>
+            <p className="ubb">
+             Aca te compartimos nuestra ubicacion hacia nuestro local fisico <br></br>
+            </p>
+            <p className="negra">
+            <b>¡Te esperamos!</b>
+            </p>
+            </div>
+            <div className="mapita">
             <Mapa/>
+            </div>
           </section>
         </main>
+        <div className="con">
         <>
           <Foot />
         </>
+        </div>
       </body>
     );
   }

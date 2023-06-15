@@ -17,7 +17,7 @@ body {
 
 }
 
-header {
+.prin {
     height: 100vh;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.534) 0%, #08080881 100%), url(../imagenes/po-fondo.jpg);
     background-repeat: no-repeat;
@@ -277,4 +277,24 @@ header {
     margin-top: 20px;
     width: 100%;
     font-weight: 400;
+}
+
+.ubb{
+    font-size: 40px;
+    margin-left: 70px;
+}
+
+.con {
+    margin-top: 10%;
+}
+
+.mapita {
+    margin-top: 40px;
+    margin-left: 450px;
+}
+
+.negra {
+    font-size: 40px;
+    margin-left: 500px;
+    margin-top: 20px;
 }
