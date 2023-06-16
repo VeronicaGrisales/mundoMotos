@@ -1,14 +1,20 @@
 import React from "react";
 import "./nav.css";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import Hamburg from "../imagenes/hamburguer.svg";
 import Index from "../heade/index"
+import Ventas from "../ventas/ventas";
+import Registrarse from "../segundoComponente/registrarse";
+import Iniciar from "../iniciarSesion/inicio";
+
 
 const Nav = () => {
   const [navOpen, setNavOpen] = useState(false);
 
   return (
+
+    <Router>
     <div className="nav">
       <div className="nav-container">
         <div className="navbar">
@@ -28,8 +34,8 @@ const Nav = () => {
         >
           <ul className="nav-links">
             <li className="nav-item">
-              <link
-                to="/index"
+              <Link
+                to="/Index"
                 onClick={() => setNavOpen(!navOpen)}
                 style={{
                   top: navOpen ? "0" : "120px",
@@ -37,11 +43,11 @@ const Nav = () => {
                 }}
               >
                 Inicio
-              </link>
+              </Link>
               <div className="nav-item-wrapper"></div>
             </li>
             <li className="nav-item">
-              <link
+              <Link
                 to="/index"
                 onClick={() => setNavOpen(!navOpen)}
                 style={{
@@ -50,12 +56,12 @@ const Nav = () => {
                 }}
               >
                 Servicios
-              </link>
+              </Link>
               <div className="nav-item-wrapper"></div>
             </li>
             <li className="nav-item">
-              <link
-                to="/index"
+              <Link
+                to="/ventas"
                 onClick={() => setNavOpen(!navOpen)}
                 style={{
                   top: navOpen ? "0" : "120px",
@@ -63,11 +69,11 @@ const Nav = () => {
                 }}
               >
                 ¿Que ofrecemos?
-              </link>
+              </Link>
               <div className="nav-item-wrapper"></div>
             </li>
             <li className="nav-item">
-              <link
+              <Link
                 to="/index"
                 onClick={() => setNavOpen(!navOpen)}
                 style={{
@@ -76,11 +82,11 @@ const Nav = () => {
                 }}
               >
                 Galeria
-              </link>
+              </Link>
               <div className="nav-item-wrapper"></div>
             </li>
             <li className="nav-item">
-              <link
+              <Link
                 to="/index"
                 onClick={() => setNavOpen(!navOpen)}
                 style={{
@@ -89,11 +95,11 @@ const Nav = () => {
                 }}
               >
                 Expertos en
-              </link>
+              </Link>
               <div className="nav-item-wrapper"></div>
             </li>
             <li className="nav-item">
-              <link
+              <Link
                 to="/index"
                 onClick={() => setNavOpen(!navOpen)}
                 style={{
@@ -102,12 +108,12 @@ const Nav = () => {
                 }}
               >
                 Contactanos
-              </link>
+              </Link>
               <div className="nav-item-wrapper"></div>
             </li>
             <li className="nav-item">
-              <link
-                to="/index"
+              <Link
+                to="/registrarse"
                 onClick={() => setNavOpen(!navOpen)}
                 style={{
                   top: navOpen ? "0" : "120px",
@@ -115,12 +121,12 @@ const Nav = () => {
                 }}
               >
                 Registrate
-              </link>
+              </Link>
               <div className="nav-item-wrapper"></div>
             </li>
             <li className="nav-item">
-              <link
-                to="/index"
+              <Link
+                to="/inicio"
                 onClick={() => setNavOpen(!navOpen)}
                 style={{
                   top: navOpen ? "0" : "120px",
@@ -128,13 +134,22 @@ const Nav = () => {
                 }}
               >
                 Iniciar Secion
-              </link>
+              </Link>
               <div className="nav-item-wrapper"></div>
             </li>
           </ul>
         </div>
+        
+        <Routes>
+        <Route path="/ventas" element={<Ventas />}></Route>
+        <Route path="/registrarse" element={<Registrarse />}></Route>
+        <Route path= "/inicio"  element={<Iniciar />}></Route>
+        </Routes>
+        
+
       </div>
     </div>
+    </Router>
   );
 };
 

@@ -9,7 +9,7 @@ import ReactDOM from'react-dom/client';
 
 /*
 import Footer from './Componentes/tercerComponente/footer';
-
+import Header from './Componentes/heade/index';
 import Nav from './Componentes/heade/nav';
 import Mapa from './Componentes/mapa/mapa';
 import Registrarse from './Componentes/segundoComponente/registrarse';
@@ -19,19 +19,17 @@ import Buscar from './Componentes/heade/buscador/buscador';
 import Ventas from './Componentes/ventas/ventas';
 import Header from './Componentes/heade/index';
 import Menu from './Componentes/primerComponente/menu';
+import Nav from './Componentes/heade/nav';
 */
 
 
 
-import Header from './Componentes/heade/index';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render (
     <>
      
-   
-     <Header/>
 
     </>
     );
@@ -43,7 +41,7 @@ root.render (
     <Ventas/>
     <Buscar/>
      <Menu/>
-    
+    <Header/>
     <Footer/>
     <Inicio/>
     <Registrarse/>
