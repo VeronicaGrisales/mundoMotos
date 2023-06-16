@@ -37,8 +37,13 @@ footer {
     font-size: 40px;
 }
 
-.brand+p {
+.brand {
+    font-family: 'Playfair Display', serif;
     font-weight: 500;
+}
+
+.jj{
+    font-family: 'Playfair Display', serif;
 }
 
 .social-media {

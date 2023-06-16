@@ -10,7 +10,7 @@ function Footer(){
         <div className='contenedor footer-content'>
           <div className='contact-us'>
             <h2 className='brand'>Mundo motos</h2>
-            <p>Somos expertos en la creación de tus sueños</p>
+            <p className='jj'>Somos expertos en la creación de tus sueños</p>
           </div>
           <div className='social-media'>
             <a href='#facebook' className='social-media-icon'>
