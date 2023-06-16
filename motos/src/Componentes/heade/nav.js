@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 import "./nav.css";
 import { useState } from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
@@ -153,4 +153,4 @@ const Nav = () => {
   );
 };
 
-export default Nav;
+export default Nav;*/

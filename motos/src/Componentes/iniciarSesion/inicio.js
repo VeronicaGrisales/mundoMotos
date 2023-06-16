@@ -14,14 +14,14 @@ function Inicio(){
             <form>
                 <h1 className='title'>Iniciar sesion</h1>
                 <label>
-                <i class='bx bxs-user'></i>
+                <i className='bx bxs-user'></i>
                 <input placeholder="Nombre de usuario" data-testid="nombre" type="text" id="username" required></input>
                 </label>
                 <label>
-                <i class='bx bxs-lock-alt'></i>
+                <i className='bx bxs-lock-alt'></i>
                 <input placeholder="Contraseña" data-testid="contraseña" type="password" id="password" required></input>
                 </label>
-                <a href="#" class="link">Olvido su Contraseña?</a>
+                <a href="#" className="link">Olvido su Contraseña?</a>
                 <input  data-testid="boton" type='submit' disabled></input>
             </form>
             </section>

@@ -78,29 +78,3 @@ const Lightbox =() => {
 };
 
 export default Lightbox;
-
- /* <img src={cuatrimoto1} />
-                <img src={cuatrimotoniño}/>
-                <img src={boxer}/>
-                <img src={motocicletaNiño}/>
-                <img src={moto2}/>
-                <img src={moto11}/>
-                <img src={moto12}/>
-                <img src={moto3}/>
-                <img src={moto4}/>
-                <img src={moto5}/>
-                <img src={moto6}/>
-                <img src={moto8}/>
-                <img src={moto7}/>
-                <img src={moto9}/>                
-                <img src={boxer2}/>
-                <img src={accesorio2} />
-                <img src={accesorio3}/>
-                <img src={accesorio1}/>
-                <img src={accesorio4}/>
-                <img src={accesorio5}/>
-                <img src={chaqueta}/>
-                <img src={herramienta}/>
-                <img src={llantas}/>
-                <img src={llaves}/>
-                <img src={repuestos}/>*/
