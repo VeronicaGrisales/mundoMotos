@@ -19,6 +19,7 @@ import Buscar from './Componentes/heade/buscador/buscador';
 import Ventas from './Componentes/ventas/ventas';
 
 import Menu from './Componentes/primerComponente/menu';
+import Nav from './Componentes/heade/nav';
 */
 
 import Mundo from "./Componentes/heade/index";
@@ -33,13 +34,26 @@ root.render(
 
 {
   /*
+
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+root.render (
+    <>
+     
+
+    </>
+    );
+
+    {/*
     <Nav/>
      <Menu/>
     <Mapa/>
     <Ventas/>
     <Buscar/>
     <Menu/>
-    
+     <Menu/>
+    <Header/>
     <Footer/>
     <Inicio/>
     <Registrarse/>
