@@ -186,7 +186,7 @@ class Mundo extends Component {
             <div>
               <h2 className="subtitulo">Nuestra ubicación</h2>
               <p className="ubb">
-                Acá te compartimos nuestra ubicación hacia nuestro local físico{" "}
+                Acá, te compartimos nuestra ubicación hacia nuestro local físico{" "}
                 <br></br>
               </p>
               <p className="negra">
