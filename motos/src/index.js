@@ -24,7 +24,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <>
-     <Mundo /> 
+   <Mundo /> 
   </>
 );
 
@@ -32,7 +32,7 @@ root.render(
   /* 
     
     <Mapa/>
- <Ventas/>
+   <Ventas/>
    <Buscar/>
     <Footer/>
      <Inicio/>
